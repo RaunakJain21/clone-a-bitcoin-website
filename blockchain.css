@@ -68,13 +68,14 @@ text-decoration: none;
 main{
     background-image: url(main\ back.svg);
     margin: 0;
+    width: 100%;
     padding: 0px 0px 0px 0px;
   }
 .cont{
     background-image: url(main\ back.svg);
    color: white;
    width: 100%;
-   height: 700px;
+   height: 670px;
    
     
    padding:  0px 0px 0px 0px;
@@ -132,6 +133,7 @@ margin-top: 100px;*/
     justify-content: space-between;
     padding: 0 15px 20px 0;
     line-height: 2.3;
+    margin-top: 200px;
     
 }
 .linkss{
@@ -142,3 +144,154 @@ margin-top: 100px;*/
 .resources,.products,.company{
     list-style: none;
 }
+.block2{
+background-color: rgb(249, 249, 249);
+width: 18%;
+margin-left : 7%;
+padding: 10px;
+margin-top: 80px; 
+color:black;
+
+height: 150px;
+border-radius: 20px;
+border-color: black;
+border-width: 10px;
+box-shadow: rgba(16, 16, 16, 0.2) 0.75
+
+
+}
+.buy{
+    rgb(115, 73, 242);
+    background-color: rgba(224, 218, 254, 0.5);
+  width: 50px;
+    padding: 10px;
+    height: 14px;
+    border-radius: 5px;
+}
+.trade{
+    color: green;
+background-color: rgb(131, 198, 157);
+width: 50px;
+padding: 10px 10px 10px 10px;
+height: 14px;
+border-radius: 5px;
+
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.one line{
+
+   
+    padding: 10px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.block3{
+    background-color: rgb(244, 241, 241);
+    width: 18%;
+    margin-left : 3%;
+    padding: 10px;
+    margin-top: 80px; 
+    color:black;
+    
+    height: 150px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: rgba(16, 16, 16, 0.2) 0.75
+    
+    
+}
+.block4{
+    background-color: rgb(244, 241, 241);
+    width: 18%;
+    margin-left : 3%;
+    padding: 10px;
+    margin-top: 80px; 
+    color:black;
+    
+    height: 150px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: rgba(16, 16, 16, 0.2) 0.75
+}
+.block5{
+    background-color: rgb(244, 241, 241);
+    width: 18%;
+    margin-left : 3%;
+    padding: 10px;
+    margin-top: 80px; 
+    color:black;
+    
+    height: 150px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: rgba(16, 16, 16, 0.2) 0.75
+    
+    
+    }
+.flex{
+    display:flex;
+}
+.wallet{
+   /*color: rgb(115, 73, 242); */
+    background-color: rgba(224, 218, 254, 0.5);
+  width: 100px;
+    padding: 15px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.b1{
+    width: 40%;
+    background-color: white;
+    padding: 15px 70px 15px 15px;
+ 
+    border-radius: 20px;
+background-color:  rgba(221, 213, 250, 0.5);
+font-size: 18px;
+
+}
+.v1{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(239, 236, 254, 0.5);
+    background-position: 50%,100%;
+    width:90%
+padding: 20px;
+color: rgb(115, 73, 242);
+
+
+    border-radius: 35px;
+    height : 900px;
+    
+}
+.img{
+    float: right;
+    width: 50%
+}
+.marg{
+    margin: 30px 15px 10px 100px;
+    padding-top: 50px;
+}
+/*.mob{
+    float: right;
+    width: 25%;
+    margin-right: 0px;
+    margin-left: 70%;  
+    grid-column-start: 5;
+    grid-row-start: 5;
+}
+.horizontal1{
+    display: grid;
+
+}*/
