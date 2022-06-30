@@ -74,18 +74,22 @@ main{
 .cont{
     background-image: url(main\ back.svg);
    color: white;
-   width: 100%;
-   height: 670px;
+   width: 102%;
+   height: 710px;
+   
    
     
    padding:  0px 0px 0px 0px;
    margin: 0px 0px 0px 0px;
+   
 
 }
 .xyz{
    font-size: 50px;
     padding: 100px 100px 0px 0px;
     
+   margin-left: 40px;
+   margin-right: 100px;
 }
 .gets{
     font-size: 20px;
@@ -95,6 +99,9 @@ main{
     background-color:rgb(0, 47, 255);
     border-color: white;
     text-decoration: none;
+    
+   margin-left: 40px;
+  /* margin-right: 100px;*/
 }
 .log{
     font-size: 20px;
@@ -103,12 +110,18 @@ main{
     border-radius: 10px;
     background-color: whitesmoke;
     border-color: black;
-    margin-left: 50px;
+    
 margin-top: 1000px;
 text-decoration: none;
+
+margin-left: 40px;
+margin-right: 100px;
 }
 .ab{
 font-size:35px;
+
+margin-left: 40px;
+margin-right: 100px;
 }
 .cnt{
     margin-left: 100px;
@@ -134,6 +147,8 @@ margin-top: 100px;*/
     padding: 0 15px 20px 0;
     line-height: 2.3;
     margin-top: 200px;
+    margin-left: 70px;
+    margin-right: 65px;
     
 }
 .linkss{
@@ -294,4 +309,62 @@ color: rgb(115, 73, 242);
 .horizontal1{
     display: grid;
 
+rgb(18, 29, 51)
 }*/
+
+.b2{
+    width: 40%;
+    background-color: white;
+    padding: 15px 70px 15px 15px;
+ 
+    border-radius: 20px;
+background-color:  rgba(221, 213, 250, 0.5);
+font-size: 27px;
+margin-top: 15px;
+color: rgb(115, 73, 242);
+}
+.getstarted{
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgb(115, 73, 242);
+
+    border-color: white;
+    text-decoration: none;
+    
+
+  /* margin-right: 100px;*/
+}
+.gt{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.btm{
+    background-image: url(back3.png);
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    height: 200px;
+}
+.btm-cont{
+    padding: 90px;
+    margin-left: 12%;
+    margin-top: 30px;
+  
+    
+}
+.getstart{
+    font-size: 20px;
+    color:rgb(41, 102, 200);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+
+    border-color: white;
+    text-decoration: none;
+    
+
+  /* margin-right: 100px;*/
+}
