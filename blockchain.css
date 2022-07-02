@@ -18,9 +18,10 @@ padding: 10px;
 
 .nav{
     background-image: url(main\ back.svg);
-    padding: 20px;
+    padding: 10px;
 	margin: 0;
     width: 100%;
+    height: 50px;
 
 }
 .link{
@@ -34,25 +35,28 @@ text-decoration: none;
     text-decoration: none;
     font-size: 20px;
     color:white;
-    padding: 25px;
-    border-radius: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0.125rem solid rgb(255, 255, 255);
+    margin-left: 15px;
 
 }
 .signup{
     text-decoration: none;
     font-size: 20px;
     color:black;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
     background-color: whitesmoke;
-
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 .list{
     text-decoration: none;
     color: white;
    /*margin-left: 75%;*/
     margin-top: 0px;
-    padding-left: 180px;
+    padding-left: 230px;
     width: 50px;
     top: 0;
     
@@ -160,7 +164,7 @@ margin-top: 100px;*/
     list-style: none;
 }
 .block2{
-background-color: rgb(249, 249, 249);
+background-color: white;
 width: 18%;
 margin-left : 7%;
 padding: 10px;
@@ -171,25 +175,27 @@ height: 150px;
 border-radius: 20px;
 border-color: black;
 border-width: 10px;
-box-shadow: rgba(16, 16, 16, 0.2) 0.75
+box-shadow: rgb(103 113 133 / 20%) 0.75rem 1.5rem 4rem
 
 
 }
 .buy{
     rgb(115, 73, 242);
-    background-color: rgba(224, 218, 254, 0.5);
-  width: 50px;
-    padding: 10px;
+    background-color:rgb(217, 212, 245);
+ /* width: 50px;*/
+    padding: 9px 15px 9px 15px;
     height: 14px;
     border-radius: 5px;
+    color: rgb(83, 34, 229);
 }
 .trade{
-    color: green;
-background-color: rgb(131, 198, 157);
+    color: rgb(0, 153, 76);
+background-color: rgb(183, 247, 233);
 width: 50px;
-padding: 10px 10px 10px 10px;
+padding: 9px 15px 9px 15px;
 height: 14px;
 border-radius: 5px;
+margin-left: 6px;
 
 }
 .up{
@@ -197,19 +203,26 @@ border-radius: 5px;
     justify-content: space-between;
     
 }
-.one line{
-
+.onelin{
+display: flex;
    
     padding: 10px;
 }
 .red{
     color: red;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.bold{
+    font-size: 18px;
+    margin-left: 0px;
 }
 .green{
     color: green;
+    font-size: 18px;
 }
 .block3{
-    background-color: rgb(244, 241, 241);
+    background-color: white;
     width: 18%;
     margin-left : 3%;
     padding: 10px;
@@ -220,12 +233,12 @@ border-radius: 5px;
     border-radius: 20px;
     border-color: black;
     border-width: 10px;
-    box-shadow: rgba(16, 16, 16, 0.2) 0.75
+    box-shadow: rgb(103 113 133 / 20%) 0.75rem 1.5rem 4rem
     
     
 }
 .block4{
-    background-color: rgb(244, 241, 241);
+    background-color: white;
     width: 18%;
     margin-left : 3%;
     padding: 10px;
@@ -236,10 +249,10 @@ border-radius: 5px;
     border-radius: 20px;
     border-color: black;
     border-width: 10px;
-    box-shadow: rgba(16, 16, 16, 0.2) 0.75
+    box-shadow: rgb(103 113 133 / 20%) 0.75rem 1.5rem 4rem
 }
 .block5{
-    background-color: rgb(244, 241, 241);
+    background-color: white;
     width: 18%;
     margin-left : 3%;
     padding: 10px;
@@ -250,7 +263,7 @@ border-radius: 5px;
     border-radius: 20px;
     border-color: black;
     border-width: 10px;
-    box-shadow: rgba(16, 16, 16, 0.2) 0.75
+    box-shadow: rgb(103 113 133 / 20%) 0.75rem 1.5rem 4rem
     
     
     }
@@ -266,9 +279,32 @@ border-radius: 5px;
     border-radius: 10px;
     font-size: 20px;
 }
+.explore{
+    /*color: rgb(115, 73, 242); */
+    background-color: rgba(252, 234, 214, 0.5);
+   width: 140px;
+     padding: 15px;
+     height: 30px;
+     border-radius: 10px;
+     font-size: 20px;
+     display: flex;
+     margin-top: 50px;
+ }
+.exchange{
+    /*color: rgb(115, 73, 242); */
+    color: rgb(12, 108, 242);
+    background-color: rgba(215, 236, 255, 0.5);
+   width: 140px;
+     padding: 15px;
+     height: 30px;
+     border-radius: 10px;
+     font-size: 25px;
+     margin-left: 50%;
+     margin-top: 50px;
+ }
 .b1{
     width: 40%;
-    background-color: white;
+
     padding: 15px 70px 15px 15px;
  
     border-radius: 20px;
@@ -276,22 +312,77 @@ background-color:  rgba(221, 213, 250, 0.5);
 font-size: 18px;
 
 }
+.b1v2{
+    width: 40%;
+ margin-left: 50%;
+    padding: 15px 70px 15px 15px;
+    color: rgb(12, 108, 242);
+    border-radius: 20px;
+    background-color: rgba(215, 236, 255, 0.5);
+font-size: 18px;
+
+}
+.desc{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
 .v1{
     margin-left: 5%;
     margin-right: 5%;
     background-color: rgba(239, 236, 254, 0.5);
     background-position: 50%,100%;
-    width:90%
-padding: 20px;
+    width:90%;
+
 color: rgb(115, 73, 242);
 
 
     border-radius: 35px;
     height : 900px;
+    margin-top: 80px;
+    
+}
+.v3{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(255, 242, 229, 0.5);
+    background-position: 50%,100%;
+    width:90%;
+
+    color: rgb(242, 139, 36);
+
+
+    border-radius: 35px;
+    height : 850px;
+    margin-top: 80px;
+    
+}
+.v2{
+    margin-left: 5%;
+    margin-right: 5%;
+
+    background-color: rgba(236, 245, 254, 0.5);
+    background-position: 50%,100%;
+    width:90%
+padding: 20px;
+color: rgb(12, 108, 242);
+
+
+    border-radius: 35px;
+    height : 800px;
+    margin-top: 80px;
     
 }
 .img{
     float: right;
+    width: 50%
+}
+.img2{
+    float: right;
+  
+}
+.img1{
+    float: left;
     width: 50%
 }
 .marg{
@@ -314,14 +405,39 @@ rgb(18, 29, 51)
 
 .b2{
     width: 40%;
-    background-color: white;
+
     padding: 15px 70px 15px 15px;
  
     border-radius: 20px;
-background-color:  rgba(221, 213, 250, 0.5);
-font-size: 27px;
+    background-color:  rgba(221, 213, 250, 0.5);
+
+font-size: 22px;
 margin-top: 15px;
 color: rgb(115, 73, 242);
+
+}
+.v3b2{
+    width: 40%;
+
+    padding: 15px 70px 15px 15px;
+ 
+    border-radius: 20px;
+    background-color: rgba(252, 234, 214, 0.5);
+border-color: rgba(255, 242, 229, 0.5);
+   font-size: 22px;
+   margin-top: 15px;
+   color: rgb(242, 139, 36);
+}
+.b2v2{
+    width: 40%;
+    background-color: white;
+    padding: 15px 70px 15px 15px;
+ margin-left: 50%;
+    border-radius: 20px;
+    background-color: rgba(215, 236, 255, 0.5);
+font-size: 22px;
+margin-top: 15px;
+color: rgb(12, 108, 242);
 }
 .getstarted{
     font-size: 20px;
@@ -334,11 +450,43 @@ color: rgb(115, 73, 242);
     text-decoration: none;
     
 
-  /* margin-right: 100px;*/
+  /* margin-right: 100px;background-color: rgb(12, 108, 242);*/
+}
+.explorenow{
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgb(242, 139, 36);
+
+    border-color: white;
+    text-decoration: none;
+    
+
+  /* margin-right: 100px;background-color: rgb(12, 108, 242);*/
+}
+.tradenow{
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+ 
+
+    border-color: white;
+    text-decoration: none;
+    
+
+ background-color: rgb(12, 108, 242);
 }
 .gt{
     margin-top: 50px;
     margin-left: 0px;
+}
+
+.gts{
+
+    margin-top: 50px;
+    margin-left: 50%;
 }
 .btm{
     background-image: url(back3.png);
@@ -346,6 +494,7 @@ color: rgb(115, 73, 242);
     color: white;
     font-size: 35px;
     text-align: center;
+    margin-top: 100px;
     height: 200px;
 }
 .btm-cont{
