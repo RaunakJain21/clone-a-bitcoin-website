@@ -18,11 +18,10 @@ padding: 10px;
 
 .nav{
     background-image: url(main\ back.svg);
-    padding: 10px;
-	margin: 0;
+    margin: 0;
     width: 100%;
     height: 50px;
-
+padding: 10px;
 }
 .link{
     font-size: 20px;
@@ -31,10 +30,21 @@ padding: 15px;
 text-decoration: none;
 
 }
+.link:hover{
+    background-color: rgb(13, 60, 88);
+}
+.login:hover{
+    background-color: rgb(13, 60, 88);
+}
+.signup:hover{
+    background-color: rgb(255, 254, 254);
+    color: black;
+}
 .login{
     text-decoration: none;
     font-size: 20px;
     color:white;
+
     padding: 12px;
     border-radius: 10px;
     border: 0.125rem solid rgb(255, 255, 255);
@@ -62,6 +72,9 @@ text-decoration: none;
     
    
 }
+
+
+
 .search{
     width: 40px;  
     margin-top: 0%;
@@ -78,15 +91,18 @@ main{
 .cont{
     background-image: url(main\ back.svg);
    color: white;
-   width: 102%;
+  
    height: 710px;
    
-   
+   background-repeat: repeat-x;
     
    padding:  0px 0px 0px 0px;
    margin: 0px 0px 0px 0px;
    
 
+}
+.grid{
+    display: grid;
 }
 .xyz{
    font-size: 50px;
